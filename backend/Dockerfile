@@ -10,7 +10,7 @@ ADD . /backend
 
 RUN pip install --upgrade pip 
 COPY ./requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt --no-cache-dir --compile
 
 COPY ./entrypoint.sh .
 RUN sed -i 's/\r$//g' /backend/entrypoint.sh
