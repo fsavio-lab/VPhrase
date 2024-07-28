@@ -1,0 +1,31 @@
+# nyc test coverage
+./frontend/.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+./frontend/.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+/frontend/build/Release
+
+# Dependency directories
+./frontend/node_modules
+./frontend/jspm_packages
+
+# Optional npm cache directory
+./frontend/npm
+
+# Optional REPL history
+./frontend/.node_repl_history
+./frontend/.next
+
+# Django Env
+./backend/env
+
+# Django local DB
+./backend/vphrase/db.sqlite3
+./backend/vphrase/static/*
+./backend/vphrase/migrations/*
+
